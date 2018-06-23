@@ -12,7 +12,7 @@ NB: This is incomplete code and not safe to use.
 ## Explanation
 I will add more details when I have a second to breathe but for now, a simple explanation is that <a href="http://www.advamation.com/knowhow/raspberrypi/rpi-i2c-bug.html" target="_blank">I2C clock stretching is buggy on the Pi</a>.
 
-Additionally, the 1.8 kOhm pull-up resistors are not enough to handle the 400KHz rate of the TSL2591 sensor.
+Additionally, the 1.8 kOhm pull-up resistors are not enough to handle the 400KHz rate the TSL2591 sensor chooses to work with.
 
 As a workaround, then, we choose to attempt multiple bus writes and reads until one of them succeeds. This can be fixed a lot more elegantly but for now, since this was only a proof of concept, I will let this remain.
 
