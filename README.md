@@ -26,3 +26,8 @@ To get sensor values run:
 <code>python3 poll.py</code>
 
 The sensor's accuracy hasn't been tested and is worth verifying against comparable sensors at some point in the future.
+
+### References
+<a href="https://electronics.stackexchange.com/questions/174174/i2c-baud-rates-and-delay-calcbit-banging" target="_blank">https://electronics.stackexchange.com/questions/174174/i2c-baud-rates-and-delay-calcbit-banging</a>
+
+<a href="https://www.raspberrypi.org/documentation/hardware/raspberrypi/bcm2835/BCM2835-ARM-Peripherals.pdf" target="_blank">https://www.raspberrypi.org/documentation/hardware/raspberrypi/bcm2835/BCM2835-ARM-Peripherals.pdf</a>
