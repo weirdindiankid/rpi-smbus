@@ -1,10 +1,10 @@
 # rpi-smbus
 A couple of important fixes to the python-smbus modules used to handle I2C on the Raspberry Pi
 
-##Installation Instructions
+## Installation Instructions
 NB: This is incomplete code and not safe to use.
 
-###Steps you need to take (TSL2591 specific)
+### Steps you need to take (TSL2591 specific)
 
 1. Edit i2c baudrate to 8000
 2. Connect Vin to the 5V out from the RPi
